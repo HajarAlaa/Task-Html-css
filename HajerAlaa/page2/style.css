@@ -1,0 +1,105 @@
+  @font-face {
+      font-family: ;
+      src: url("fonts/FRIGO-BlackPersonalUse.otf/frigo.woff") format(woff);
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+
+
+ body{
+    background-color: black;
+}
+.parent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 925px;
+    
+}
+.top{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 130px;
+    border-bottom: 2px solid #838080;
+    background-color: black;
+}
+.top>div{
+    float: right;
+    
+}
+.section1 li{
+     display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+.about{
+     text-decoration: none;
+     background-color: rgb(25, 98, 141);
+     color: white;
+     padding: 10px;
+}
+.sec2{
+    color: rgba(124, 121, 121, 0.808);
+     text-decoration: none;
+     
+     background-color: black;
+
+}
+.container{
+    background-color: rgb(212, 211, 211);
+    
+    padding: 10px;
+    
+    
+}
+    
+.welcome h1{
+    border-bottom: 2px solid gray;
+    color:rgb(108, 174, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    
+    
+}
+.welcome p{
+    padding: 10px;
+    margin:5px;
+    
+    height: 100%;
+    margin-bottom: 3px;
+    color:black;
+}
+.image{
+
+    text-align: center;
+    
+}
+
+
+.image img{
+    margin: 20px 10px 20px 10px;
+    
+}
+.bottom{
+      margin: 20px 10px 20px 10px;
+      padding: 10px;
+   
+}
+.clearfix{
+    clear:both;
+}
+.footer{
+    text-align: center ;
+    border-top: 2px solid gray;
+    font-family: system-ui;
+}

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+
+
+ body{
+    background-color: black;
+}
+.parent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 925px;
+    
+    
+    
+
+}
+.top{
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 115px;
+    border-bottom: 2px solid #838080;
+    background-color: black;
+     
+     
+}
+.top>div{
+    float: right;
+    
+          
+
+}
+.sec li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+}
+.home{
+     text-decoration: none;
+     background-color: rgb(25, 98, 141);
+     color: white;
+     padding: 10px;
+}
+.sec2{
+    color: rgba(124, 121, 121, 0.808);
+     text-decoration: none;
+     
+     background-color: black;
+
+}
+
+.continer{
+    background-color: rgb(212, 211, 211);
+    
+    padding: 10px;
+    
+    text-align: justify;
+    
+    }
+
+    .welcome{
+        width: 66%;
+        float: left;
+    }
+.welcome h1{
+    border-bottom: 2px solid gray;
+    color:rgb(108, 174, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 10px;
+    
+}
+.welcome ul li{
+    padding-left: 25px;
+    list-style: inside;
+    
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.welcome img{
+    border:1px solid white;
+    padding:10px;
+    width: 45%;
+    margin:5px;
+    
+}
+.welcome p{
+    padding: 10px;
+    margin:5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    margin-bottom: 3px;
+}
+.side{
+    width:25%;
+    float:right;
+}
+.side h1{
+    font-family: monospace;
+    border-bottom: 2px solid gray;
+    color:rgb(108, 174, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+ .side .side1{
+    color:rgb(255, 128, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+ .side .side2{
+    color:rgb(13, 163, 173);
+    font-family: monospace;
+    font-size: 15px;
+}
+.side p{
+    padding: 5px;
+    
+    height:100%;
+    margin-bottom: 3px;
+}
+.clearfix{
+    clear:both;
+}
+.footer{
+    text-align: center;
+    border-top: 2px solid gray;
+    font-family:system-ui;
+    
+}
